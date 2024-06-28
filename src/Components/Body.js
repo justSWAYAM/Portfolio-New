@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import SkillCards from './SkillCards';
+import Socials from './socials';
 
 const Body = () => {
   return (
@@ -19,6 +20,9 @@ const Body = () => {
               <button className="font-bold font-custom border-black hover:text-white hover:bg-black px-4 py-2 border-[5px]">
                 Download CV
               </button>
+            </div>
+            <div className='flex justify-center m-5'>
+             <Socials/>
             </div>
           </div>
         </div>
