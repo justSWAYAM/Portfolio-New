@@ -1,10 +1,11 @@
 import React from 'react';
-
+import About from './About';
 
 const Body = () => {
   return (
     <div className='Body'>
-<div className='Container w-[60vw] h-[80vw] shadow-2xl md:h-[600px] mx-[20vw] my-[15vw] shadow-gray-700 md:my-[10vw]'>
+        <section className = "Hello">
+<div className='Container w-[60vw] h-[80vw] shadow-2xl md:h-[600px] mx-[20vw] my-[15vw] shadow-gray-700 md:my-[10vw] '>
 
     <div className='Intro py-[50px] md:py-[160px] flex flex-col items-center justify-center font-custom'>
        
@@ -22,15 +23,15 @@ const Body = () => {
                 Download CV
             </button>
         </div>
-    </div>
+        </div>
+</div>
+<div>
+    <About/>
+</div>
+</section>
+
 </div>
 
-<div className="Skills py-[200px] w-[60vw] shadow-lg bg-cover" >
-
-
-</div>
-
-</div>
 
   );
 }

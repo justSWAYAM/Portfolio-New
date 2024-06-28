@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import SkillCards from './SkillCards';
+import AboutSections from './About-section';
 
 const About = () => {
   return (
-    <div>About</div>
-  )
+    <div className='bg-customGreen w-screen h-full md:h-screen'>
+     <AboutSections/>
+     <SkillCards/>
+    </div>
+  );
 }
 
-export default About
+export default About;
+

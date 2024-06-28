@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Resume from './Components/Resume';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+
 function App() {
   const appRouter = createBrowserRouter([
     {
@@ -27,7 +28,7 @@ function App() {
   ]);
 
   return (
-    <div className="App">
+    <div className="App " >
       <Header />
       <RouterProvider router={appRouter} />
     </div>

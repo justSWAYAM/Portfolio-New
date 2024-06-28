@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-    <div className="w-[80vw] flex justify-between md:w-[80vw] shadow-2xl shadow-gray-500 md:my-[2vw] md:mx-[10vw]  rounded-2xl mx-10 my-8 text-black font-custom sticky top-5 z-50">
+    <div className="w-[80vw] flex justify-between md:w-[80vw] shadow-2xl shadow-gray-500 md:my-[2vw] md:mx-[10vw]  rounded-2xl mx-10 my-8 text-black font-custom  ">
     
     <h1 className="text-[15px] w-6 font-semibold md:p-5 py-8 ml-5 md:text-4xl md:m-3 ">Swayam Mishra</h1>
     
