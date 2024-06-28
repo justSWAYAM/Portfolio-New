@@ -19,12 +19,10 @@ const AboutSections = () => {
         </div>
       </div>
       <div className='flex md:flex-row flex-col'>
-        <div className='w-[9/12]'>
-        <Education/>
-      </div>
+        
       <div className=' md:w-[50vw] w-[3/12]'>
-        <h1 className ="md:text-4xl font-custom font-bold md:my-[35px] md:ml-[25px] ml-[15px] text-xl ">What do I want ? </h1>
-        <div className='ml-[15px] ]'>
+        <h1 className ="md:text-4xl font-custom font-bold md:my-[35px] md:ml-[95px] ml-[15px] text-xl my-[20px]">What do I want ? </h1>
+        <div className='ml-[15px] md:ml-[95px]'>
           <p className='font-custom '>
           I am passionate about technology and eager to explore the realms of web development and machine learning.
            Constantly driven by a thirst for knowledge, I am always keen to learn new things and expand my skill set.
@@ -35,6 +33,9 @@ const AboutSections = () => {
           </p>
         </div>
 
+      </div>
+      <div className='w-[9/12]'>
+        <Education/>
       </div>
       </div>
       </div>

@@ -1,17 +1,16 @@
-import './App.css';
-import Body from './Components/Body';
+import React from 'react';
 import About from './Components/About';
 import Contact from './Components/Contact';
-import Header from './Components/Header';
 import Resume from './Components/Resume';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
+import Whole from './Components/Whole';
+import './App.css';
 
 function App() {
   const appRouter = createBrowserRouter([
     {
       path: '/',
-      element: <Body />,
+      element: <Whole/>
     },
     {
       path: '/about',
@@ -28,12 +27,13 @@ function App() {
   ]);
 
   return (
-    <div className="App " >
-      <Header />
-      <RouterProvider router={appRouter} />
-    </div>
+    <RouterProvider router={appRouter}>
+      <Whole />
+    </RouterProvider>
   );
 }
 
 export default App;
+
+
 

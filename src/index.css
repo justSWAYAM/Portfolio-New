@@ -6,9 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:url('./utils/bg.jpg');
+  /* background-image:url('https://firebasestorage.googleapis.com/v0/b/portfolio-swayam-e7287.appspot.com/o/images%2Fbg.jpg?alt=media&token=c7948211-5db3-4742-91e9-4f7143e8629c');
   background-size : cover;
   background-repeat : no-repeat;
+  background-image: center; */
   background-color :	#d0ded8;
   
   
