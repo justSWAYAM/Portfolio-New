@@ -35,7 +35,7 @@ const Body = () => {
                   Download CV
                 </button>
               </div>
-              <div className='flex justify-center m-5'>
+              <div className='flex justify-center my-1 m-5'>
                 <Socials />
               </div>
             </div>
