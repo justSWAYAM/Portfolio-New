@@ -23,7 +23,7 @@ const Body = () => {
       <div className='Body'>
         <section className="Hello">
           <div className='Container w-[60vw] h-[80vw] shadow-2xl md:h-[600px] mx-[20vw] my-[15vw] shadow-gray-700 md:my-[10vw] transform transition duration-300 ease-in-out hover:scale-105'>
-            <div className='Intro py-[50px] md:py-[160px] flex flex-col items-center justify-center font-custom'>
+            <div className='Intro py-[10px] md:py-[160px] flex flex-col items-center justify-center font-custom'>
               <h1 className='flex justify-center text-xl font-bold md:text-6xl font-custom m-5'>Hi! I am Swayam</h1>
               <div className='flex justify-center'>
                 <p className='font-custom md:text-lg text-sm px-6 m-6 md:m-2 md:px-3'>
