@@ -30,7 +30,7 @@ const Body = () => {
                   I am an aspiring Software-Developer learning web-dev
                 </p>
               </div>
-              <div className='flex justify-center m-5'>
+              <div className='flex justify-center md:m-5 m-2'>
                 <button className="font-bold font-custom border-black hover:text-white hover:bg-black px-4 py-2 border-[5px]" onClick={handleDownloadCV}>
                   Download CV
                 </button>
